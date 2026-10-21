@@ -93,12 +93,13 @@ export default function TestimonialsSection() {
             <div className="panda-eyebrow">
               <span className="panda-eyebrow-line" /> WORD FROM THE FIELD
             </div>
-            <h2 className="panda-section-heading">What Our Students Say</h2>
+            <h2 className="panda-section-heading">Learning That Builds a Stronger Trading Foundation
+            </h2>
           </div>
           <p className="panda-section-aside">
-            Real experiences. Trusted mentors.
-            <br />
-            Meaningful trading results.
+            Hear from learners about their experience with The Safe Trader Academy, their understanding of trading concepts, and their learning journey.
+
+
           </p>
         </div>
 
