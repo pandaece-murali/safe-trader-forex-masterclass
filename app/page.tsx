@@ -530,13 +530,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="hero-visual">
+          <div className="hero-visual" style={{ width: "100%", maxWidth: 410, margin: "0 auto" }}>
             {/* 04 Floating market watch kept ABOVE the image so image is never hidden */}
             <Reveal
               as="div"
               className="market-watch-top-bar"
               direction="up"
               delay={0.1}
+              style={{ width: "100%", maxWidth: 410 }}
             >
               <div className="market-watch-bar-inner">
                 <div className="market-watch-bar-header">
@@ -578,7 +579,7 @@ export default function Home() {
               </div>
             </Reveal>
 
-            {/* Hero image collage - 100% visible and unobstructed */}
+            {/* Hero image - 100% visible and unobstructed */}
             <Reveal
               as="div"
               className="hero-image-wrap"
@@ -586,11 +587,23 @@ export default function Home() {
               initialScale={0.92}
               direction="zoom"
               delay={0.2}
+              style={{
+                width: "100%",
+                maxWidth: 410,
+                aspectRatio: "682 / 1024",
+                margin: "0 auto",
+              }}
             >
               <img
-                src="/hero-training-collage.jpg"
-                alt="The Safe Trader Academy - Live Forex Trading Masterclass Classroom and Mentorship"
+                src="/hero-mentor.jpg"
+                alt="The Safe Trader Academy - Live Forex Trading Masterclass with Expert Mentor"
                 className="hero-person-image"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                  display: "block",
+                }}
               />
             </Reveal>
           </div>
