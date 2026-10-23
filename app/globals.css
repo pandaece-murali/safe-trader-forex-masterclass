@@ -3377,3 +3377,18 @@ img {
     justify-self: stretch;
   }
 }
+
+.ck-midpage-cta-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 28px auto 0;
+}
+
+.ck-midpage-cta-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
