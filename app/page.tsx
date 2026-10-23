@@ -782,6 +782,12 @@ export default function Home() {
               );
             })}
           </div>
+
+          <a href={REGISTRATION_URL} className="ck-midpage-cta-button">
+            Register Now @ ₹99
+            <ArrowRight size={19} strokeWidth={2.5} />
+          </a>
+
         </div>
       </section>
 

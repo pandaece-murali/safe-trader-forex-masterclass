@@ -3228,3 +3228,152 @@ img {
     font-size: 9px;
   }
 }
+
+/* Mid-page registration CTA */
+.ck-midpage-cta {
+  position: relative;
+  overflow: hidden;
+  padding: 38px 0;
+  background: linear-gradient(120deg, #071832, #102b4c);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ck-midpage-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.ck-midpage-cta-content {
+  max-width: 700px;
+}
+
+.ck-midpage-cta-eyebrow {
+  color: #ff8a00;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.ck-midpage-cta-content h2 {
+  margin: 10px 0;
+  color: #ffffff;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.25;
+  font-weight: 850;
+}
+
+.ck-midpage-cta-content h2 span {
+  color: #ff7900;
+}
+
+.ck-midpage-cta-content p {
+  margin: 0;
+  color: #c1ccdc;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.ck-midpage-cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding: 16px 26px;
+  border-radius: 10px;
+  background: linear-gradient(110deg, #ffb000, #ff6500);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 850;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(255, 101, 0, 0.24);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ck-midpage-cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(255, 101, 0, 0.35);
+}
+
+@media (max-width: 768px) {
+  .ck-midpage-cta {
+    padding: 30px 0;
+  }
+
+  .ck-midpage-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .ck-midpage-cta-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* ==========================================
+   WHY ATTEND — 5 RESPONSIVE CARDS
+========================================== */
+
+.ck-why-attend-grid-5 {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
+}
+
+.ck-why-attend-grid-5>* {
+  grid-column: span 2;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* Center the last two cards */
+.ck-why-attend-grid-5>*:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+.ck-why-attend-grid-5>*:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
+/* Tablet: two columns */
+@media (max-width: 900px) {
+  .ck-why-attend-grid-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .ck-why-attend-grid-5>* {
+    grid-column: auto;
+    width: 100%;
+  }
+
+  .ck-why-attend-grid-5>*:nth-child(5) {
+    grid-column: 1 / -1;
+    width: calc(50% - 9px);
+    justify-self: center;
+  }
+}
+
+/* Mobile: one full-width card per row */
+@media (max-width: 600px) {
+  .ck-why-attend-grid-5 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .ck-why-attend-grid-5>*,
+  .ck-why-attend-grid-5>*:nth-child(4),
+  .ck-why-attend-grid-5>*:nth-child(5) {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    max-width: 100%;
+    min-width: 0;
+    justify-self: stretch;
+  }
+}
