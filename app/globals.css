@@ -3392,3 +3392,199 @@ img {
   align-items: center;
   gap: 10px;
 }
+
+/* Fix mobile navigation menu readability */
+@media (max-width: 768px) {
+
+  .ck-mobile-menu,
+  .ck-mobile-nav,
+  .mobile-menu {
+    background: #ffffff !important;
+    color: #0b1b35 !important;
+  }
+
+  .ck-mobile-menu a,
+  .ck-mobile-nav a,
+  .mobile-menu a {
+    color: #0b1b35 !important;
+    opacity: 1 !important;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .ck-mobile-menu a:hover,
+  .ck-mobile-nav a:hover,
+  .mobile-menu a:hover {
+    color: #ff6500 !important;
+  }
+}
+
+/* Fix mobile navigation menu readability */
+@media (max-width: 768px) {
+
+  .ck-mobile-menu,
+  .ck-mobile-nav,
+  .mobile-menu {
+    background: #ffffff !important;
+    color: #0b1b35 !important;
+  }
+
+  .ck-mobile-menu a,
+  .ck-mobile-nav a,
+  .mobile-menu a {
+    color: #0b1b35 !important;
+    opacity: 1 !important;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .ck-mobile-menu a:hover,
+  .ck-mobile-nav a:hover,
+  .mobile-menu a:hover {
+    color: #ff6500 !important;
+  }
+}
+
+/* Fix mobile menu text contrast */
+@media (max-width: 768px) {
+
+  body nav a,
+  body header a {
+    opacity: 1 !important;
+  }
+
+  body nav a[href^="#"],
+  body header a[href^="#"] {
+    color: #0b1b35 !important;
+    -webkit-text-fill-color: #0b1b35 !important;
+    opacity: 1 !important;
+    font-weight: 600 !important;
+  }
+
+  body nav a[href^="#"]:hover,
+  body header a[href^="#"]:hover {
+    color: #ff6500 !important;
+    -webkit-text-fill-color: #ff6500 !important;
+  }
+}
+
+/* Fix Why Attend cards on mobile */
+@media (max-width: 600px) {
+  .ck-why-attend-grid-5 {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 16px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .ck-why-attend-grid-5>* {
+    grid-column: 1 / -1 !important;
+    justify-self: stretch !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+}
+
+
+/* WHY ATTEND — RESPONSIVE GRID FIX */
+
+.ck-why-attend-grid-5 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
+  max-width: 100%;
+  align-items: stretch;
+}
+
+.ck-why-attend-grid-5>.ck-card-lift {
+  grid-column: auto;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Center the final two cards on desktop */
+@media (min-width: 901px) {
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(4) {
+    grid-column: 1 / 2;
+    margin-left: 50%;
+    width: 100%;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: 2 / 3;
+  }
+}
+
+/* Tablet: two equal columns */
+@media (min-width: 601px) and (max-width: 900px) {
+  .ck-why-attend-grid-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(4),
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: auto;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: 1 / -1;
+    width: calc(50% - 9px);
+    justify-self: center;
+  }
+}
+
+/* Mobile: five full-width cards */
+@media (max-width: 600px) {
+  #why-attend {
+    padding: 40px 0 !important;
+    overflow: hidden;
+  }
+
+  #why-attend .container {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .ck-why-attend-grid-5 {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 16px !important;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift,
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(4),
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    justify-self: stretch !important;
+    box-sizing: border-box;
+  }
+
+  .ck-why-attend-grid-5 .ck-card-lift-icon {
+    margin-bottom: 12px;
+  }
+
+  .ck-why-attend-grid-5 h3 {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .ck-why-attend-grid-5 p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
