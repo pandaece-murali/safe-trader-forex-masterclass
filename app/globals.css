@@ -3588,3 +3588,134 @@ img {
     line-height: 1.7;
   }
 }
+
+/* WHY ATTEND — FIX DESKTOP CARD OVERLAP */
+
+.ck-why-attend-grid-5 {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
+  align-items: stretch;
+}
+
+.ck-why-attend-grid-5>.ck-card-lift {
+  grid-column: span 2;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Center the last two cards without overlap */
+@media (min-width: 901px) {
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 900px) {
+  .ck-why-attend-grid-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift {
+    grid-column: auto;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: 1 / -1;
+    width: calc(50% - 9px);
+    justify-self: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .ck-why-attend-grid-5 {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift,
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(4),
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    max-width: 100%;
+    margin: 0 !important;
+    justify-self: stretch;
+  }
+}
+
+/* WHY ATTEND — FIX OVERLAPPING CARDS */
+
+.ck-why-attend-grid-5 {
+  display: grid !important;
+  grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
+  gap: 24px;
+  width: 100%;
+  align-items: stretch;
+}
+
+.ck-why-attend-grid-5>.ck-card-lift {
+  grid-column: span 2 !important;
+  position: relative;
+  inset: auto;
+  width: 100% !important;
+  min-width: 0;
+  max-width: none;
+  margin: 0 !important;
+  transform: none;
+  box-sizing: border-box;
+}
+
+/* Center cards 4 and 5 */
+.ck-why-attend-grid-5>.ck-card-lift:nth-child(4) {
+  grid-column: 2 / span 2 !important;
+}
+
+.ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+  grid-column: 4 / span 2 !important;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .ck-why-attend-grid-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 18px;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift {
+    grid-column: auto !important;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: 1 / -1 !important;
+    width: calc(50% - 9px) !important;
+    justify-self: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .ck-why-attend-grid-5 {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 16px;
+  }
+
+  .ck-why-attend-grid-5>.ck-card-lift,
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(4),
+  .ck-why-attend-grid-5>.ck-card-lift:nth-child(5) {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+    justify-self: stretch;
+  }
+}
