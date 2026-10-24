@@ -312,7 +312,7 @@ const WEBINAR_DATE = "01-Nov-2026";
 const WEBINAR_TIME = "7.00 PM";
 const WEBINAR_MODE = "Live Online Session";
 const WEBINAR_LANGUAGE = "English, Telugu";
-const REGISTRATION_URL = "#register";
+const REGISTRATION_URL = "https://rzp.io/rzp/jzhEnqTU";
 
 type ZoomCardData = {
   category: string;
