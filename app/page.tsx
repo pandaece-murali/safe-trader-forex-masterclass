@@ -308,10 +308,10 @@ const faqs = [
   },
 ];
 
-const WEBINAR_DATE = "01-Nov-2026";
-const WEBINAR_TIME = "7.00 PM";
+const WEBINAR_DATE = "13-Nov-2026";
+const WEBINAR_TIME = "6.00 PM to 9.00 PM";
 const WEBINAR_MODE = "Live Online Session";
-const WEBINAR_LANGUAGE = "English, Telugu";
+const WEBINAR_LANGUAGE = "English, Hindi";
 const REGISTRATION_URL = "https://rzp.io/rzp/jzhEnqTU";
 
 type ZoomCardData = {
@@ -340,8 +340,8 @@ export default function Home() {
   });
 
   useEffect(() => {
-    // Webinar: November 1, 2026, at 7:00 PM IST
-    const targetDate = new Date("2026-11-01T19:00:00+05:30").getTime();
+    // Webinar: November 13, 2026, at 6:00 PM IST
+    const targetDate = new Date("2026-11-13T18:00:00+05:30").getTime();
 
     const updateTimer = () => {
       const distance = targetDate - Date.now();
