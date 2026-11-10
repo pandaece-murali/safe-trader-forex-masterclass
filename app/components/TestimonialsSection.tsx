@@ -164,7 +164,7 @@ export default function TestimonialsSection() {
         {/* CTA Button */}
         <div className="testimonial-cta-wrap">
           <a href="#register" className="register-button testimonial-cta-btn">
-            JOIN THE LIVE FOREX MASTERCLASS — ₹99
+            JOIN THE 2-DAY LIVE FOREX MASTERCLASS — ₹99
             <ArrowRight size={19} strokeWidth={2.5} />
           </a>
         </div>

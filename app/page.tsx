@@ -308,9 +308,9 @@ const faqs = [
   },
 ];
 
-const WEBINAR_DATE = "21-Nov-2026";
+const WEBINAR_DATE = "21st & 22nd Nov 2026";
 const WEBINAR_TIME = "6.00 PM to 9.00 PM";
-const WEBINAR_MODE = "Live Online Session";
+const WEBINAR_MODE = "2-Day Live Online Session";
 const WEBINAR_LANGUAGE = "English, Hindi";
 const REGISTRATION_URL = "https://rzp.io/rzp/jzhEnqTU";
 
@@ -490,7 +490,7 @@ export default function Home() {
             {/* Top Eyebrow Accent (Orange Logo Accent) */}
             <Reveal as="div" direction="up" delay={0.1}>
               <div className="ck-hero-eyebrow-accent">
-                LIVE FOREX TRADING MASTERCLASS
+                2-DAY LIVE FOREX TRADING MASTERCLASS
               </div>
             </Reveal>
 
@@ -507,7 +507,7 @@ export default function Home() {
             {/* Subtitle Paragraphs */}
             <Reveal as="div" direction="up" delay={0.2}>
               <p className="ck-hero-desc-primary">
-                Learn how currency markets work, understand price action, and explore technical analysis and risk management in this live Forex trading masterclass.
+                Learn how currency markets work, understand price action, and explore technical analysis and risk management in this 2-day live Forex trading masterclass.
               </p>
               <p className="ck-hero-desc-secondary">
                 Designed for beginners and aspiring traders who want to understand the fundamentals of Forex trading through a structured learning approach.
@@ -897,7 +897,7 @@ export default function Home() {
           {/* CTA: JOIN THE LIVE FOREX MASTERCLASS — ₹99 */}
           <div style={{ textAlign: "center", marginTop: 44 }}>
             <a href={REGISTRATION_URL} className="register-button" style={{ minHeight: 52, padding: "14px 36px", fontSize: 15 }}>
-              <span>JOIN THE LIVE FOREX MASTERCLASS — ₹99</span>
+              <span>JOIN THE 2-DAY LIVE FOREX MASTERCLASS — ₹99</span>
               <ArrowRight size={18} strokeWidth={2.5} />
             </a>
           </div>
@@ -1155,12 +1155,12 @@ export default function Home() {
             </div>
             <p>
               Learn the fundamentals of currency markets, chart analysis, and
-              risk management in a live educational masterclass by The Safe
+              risk management in a 2-day live educational masterclass by The Safe
               Trader Academy.
             </p>
             <div className="final-cta-badge-row">
               <span className="final-cta-live-badge">
-                LIVE FOREX TRADING MASTERCLASS
+                2-DAY LIVE FOREX TRADING MASTERCLASS
               </span>
             </div>
             <div className="final-event-details">
