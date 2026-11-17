@@ -431,7 +431,7 @@ export default function Home() {
             onClick={closeMenu}
           >
             <Image
-              src="/safe-trader-logo.png"
+              src="/safe-trader-logo-v2.png"
               alt="The Safe Trader Academy"
               width={185}
               height={95}
@@ -991,7 +991,7 @@ export default function Home() {
                   aria-label="The Safe Trader Academy YouTube channel"
                 >
                   <Image
-                    src="/safe-trader-logo.png"
+                    src="/safe-trader-logo-v2.png"
                     alt="The Safe Trader Academy"
                     width={72}
                     height={72}
