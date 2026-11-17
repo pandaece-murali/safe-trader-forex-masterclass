@@ -26,10 +26,10 @@ export default function ThankYouPage() {
         <div className="thank-you-header-inner">
           <Link href="/" aria-label="The Safe Trader Academy home">
             <Image
-              src="/safe-trader-logo-v2.png"
-              alt="The SafeTrader — an academy for stock market"
-              width={180}
-              height={90}
+              src="/safe-trader-logo.png"
+              alt="The Safe Trader Academy"
+              width={160}
+              height={80}
               priority
               className="thank-you-logo"
             />
