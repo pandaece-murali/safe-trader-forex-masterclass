@@ -20,13 +20,13 @@ export const metadata: Metadata = {
     "Learn the fundamentals of currency markets, chart analysis, and risk management in a 2-day live educational masterclass by The Safe Trader Academy.",
   icons: {
     icon: [
-      { url: "/favicon.ico?v=2" },
-      { url: "/favicon-32x32.png?v=2", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png?v=2", sizes: "16x16", type: "image/png" },
-      { url: "/icon.png?v=2", sizes: "512x512", type: "image/png" },
+      { url: "/favicon.ico?v=3" },
+      { url: "/favicon-32x32.png?v=3", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png?v=3", sizes: "16x16", type: "image/png" },
+      { url: "/icon.png?v=3", sizes: "512x512", type: "image/png" },
     ],
-    shortcut: "/favicon.ico?v=2",
-    apple: "/apple-icon.png?v=2",
+    shortcut: "/favicon.ico?v=3",
+    apple: "/apple-icon.png?v=3",
   },
 };
 

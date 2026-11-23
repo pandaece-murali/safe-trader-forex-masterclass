@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -49,7 +49,7 @@ export default function ThankYouPage() {
         <h1>Thank you for registering!</h1>
         <p className="thank-you-intro">
           Your payment has been received and your place in the 2-Day Live Forex
-          Trading Masterclass (21st &amp; 22nd Nov 2026) is confirmed.
+          Trading Masterclass (13th & 14th Dec 2026) is confirmed.
         </p>
 
         <div className="thank-you-registration-card">
