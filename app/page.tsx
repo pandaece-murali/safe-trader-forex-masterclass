@@ -308,7 +308,7 @@ const faqs = [
   },
 ];
 
-const WEBINAR_DATE = "21st & 22nd Nov 2026";
+const WEBINAR_DATE = "13th & 14th Dec 2026";
 const WEBINAR_TIME = "6.00 PM to 9.00 PM";
 const WEBINAR_MODE = "2-Day Live Online Session";
 const WEBINAR_LANGUAGE = "English, Hindi";
@@ -340,8 +340,8 @@ export default function Home() {
   });
 
   useEffect(() => {
-    // Webinar: November 21, 2026, at 6:00 PM IST
-    const targetDate = new Date("2026-11-21T18:00:00+05:30").getTime();
+    // Webinar: December 13, 2026, at 6:00 PM IST
+    const targetDate = new Date("2026-12-13T18:00:00+05:30").getTime();
 
     const updateTimer = () => {
       const distance = targetDate - Date.now();

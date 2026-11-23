@@ -179,13 +179,12 @@ img {
 
 .site-logo {
   display: block;
-  width: 165px;
-  height: auto;
-  max-height: 72px;
-  object-fit: contain;
+  width: 130px;
+  height: 72px;
+  object-fit: fill;
   object-position: left center;
   background: #ffffff;
-  padding: 4px 12px;
+  padding: 0;
   border-radius: 8px;
 }
 
@@ -1869,8 +1868,7 @@ img {
   }
 
   .site-logo {
-    width: 145px;
-    max-height: 64px;
+    width: 118px;
   }
 
   .ck-hero-grid {
@@ -2414,8 +2412,7 @@ img {
   }
 
   .site-logo {
-    width: 128px;
-    max-height: 56px;
+    width: 105px;
   }
 
   .mobile-menu-button {
@@ -2689,7 +2686,7 @@ img {
   }
 
   .site-logo {
-    width: 112px;
+    width: 96px;
   }
 }
 
