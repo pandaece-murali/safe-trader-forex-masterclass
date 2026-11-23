@@ -62,7 +62,7 @@ export default function ThankYouPage() {
           </div>
           <div className="thank-you-session-type">
             <Monitor size={18} aria-hidden="true" />
-            <span>2-Day Live online session • 21st &amp; 22nd Nov 2026</span>
+            <span>2-Day Live online session • 13th &amp; 14th Dec 2026</span>
           </div>
         </div>
 
