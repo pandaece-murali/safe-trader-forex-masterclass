@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import { useState, useEffect } from "react";
@@ -311,7 +311,7 @@ const faqs = [
 const WEBINAR_DATE = "13th & 14th Dec 2026";
 const WEBINAR_TIME = "6.00 PM to 9.00 PM";
 const WEBINAR_MODE = "2-Day Live Online Session";
-const WEBINAR_LANGUAGE = "English, Hindi";
+const WEBINAR_LANGUAGE = "English, Telugu & Hindi";
 const REGISTRATION_URL = "https://rzp.io/rzp/jzhEnqTU";
 
 type ZoomCardData = {
@@ -1196,7 +1196,7 @@ export default function Home() {
         <div className="container risk-footer-inner">
           <div className="risk-title">
             <AlertTriangle size={24} />
-            <strong>Risk Disclaimer</strong>
+            <strong>Disclaimer</strong>
           </div>
           <p>
             This masterclass is for educational purposes only and does not
