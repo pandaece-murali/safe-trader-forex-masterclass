@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://academy.thesafetrader.in"),
-  title: "2-Day Live Forex Trading Masterclass | The Safe Trader Academy",
+  title: "Live Forex Trading Masterclass | The Safe Trader Academy",
   description:
-    "Learn the fundamentals of currency markets, chart analysis, and risk management in a 2-day live educational masterclass by The Safe Trader Academy.",
+    "Learn the fundamentals of currency markets, chart analysis, and risk management in a live educational masterclass by The Safe Trader Academy.",
   icons: {
     icon: [
       { url: "/favicon.ico?v=3" },

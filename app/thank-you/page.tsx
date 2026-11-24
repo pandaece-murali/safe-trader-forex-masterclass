@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = {
   title: "Registration Confirmed | The Safe Trader Academy",
   description:
-    "Thank you for registering for the 2-Day Live Forex Trading Masterclass by The Safe Trader Academy.",
+    "Thank you for registering for the Live Forex Trading Masterclass by The Safe Trader Academy.",
   robots: {
     index: false,
     follow: false,
@@ -48,21 +48,21 @@ export default function ThankYouPage() {
         <p className="thank-you-eyebrow">PAYMENT SUCCESSFUL</p>
         <h1>Thank you for registering!</h1>
         <p className="thank-you-intro">
-          Your payment has been received and your place in the 2-Day Live Forex
-          Trading Masterclass (13th & 14th Dec 2026) is confirmed.
+          Your payment has been received and your place in the Live Forex
+          Trading Masterclass (13th Dec 2026) is confirmed.
         </p>
 
         <div className="thank-you-registration-card">
           <div className="thank-you-registration-heading">
             <div>
               <span>Your registration</span>
-              <h2>2-Day Live Forex Trading Masterclass</h2>
+              <h2>Live Forex Trading Masterclass</h2>
             </div>
             <span className="thank-you-price">₹99</span>
           </div>
           <div className="thank-you-session-type">
             <Monitor size={18} aria-hidden="true" />
-            <span>2-Day Live online session • 13th &amp; 14th Dec 2026</span>
+            <span>Live online session • 13th Dec 2026 • 7.00 PM to 9.00 PM</span>
           </div>
         </div>
 
