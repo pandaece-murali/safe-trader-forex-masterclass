@@ -308,7 +308,7 @@ const faqs = [
   },
 ];
 
-const WEBINAR_DATE = "13th Dec 2026";
+const WEBINAR_DATE = "12th Dec 2026";
 const WEBINAR_TIME = "7.00 PM to 9.00 PM";
 const WEBINAR_MODE = "Live Online Session";
 const WEBINAR_LANGUAGE = "English, Telugu & Hindi";
@@ -340,8 +340,8 @@ export default function Home() {
   });
 
   useEffect(() => {
-    // Webinar: December 13, 2026, at 7:00 PM IST
-    const targetDate = new Date("2026-12-13T19:00:00+05:30").getTime();
+    // Webinar: December 12, 2026, at 7:00 PM IST
+    const targetDate = new Date("2026-12-12T19:00:00+05:30").getTime();
 
     const updateTimer = () => {
       const distance = targetDate - Date.now();
